@@ -55,6 +55,14 @@ p {
     margin: 10px;
 }
 
+ul{
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: disc;
+}
+
 p.pIndexCopy {
   font-size: 15px;
   padding: 0 10px 0 25px;
