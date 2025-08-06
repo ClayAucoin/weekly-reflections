@@ -59,7 +59,7 @@ ul{
     list-style-type: disc;
 }
 
-ol {
+ul.disc {
     list-style-type: disc;
 }
 
