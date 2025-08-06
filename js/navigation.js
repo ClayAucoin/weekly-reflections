@@ -1,4 +1,4 @@
-fetch('/navigation.html')
+fetch('/weekly-reflections/html/navigation.html')
     .then(response => response.text())
     .then(html => {
         document.getElementById('navigation').innerHTML = html;
