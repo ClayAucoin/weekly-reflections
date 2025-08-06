@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+        const baseHref = isLocal ? '/' : '/weekly-reflections/';
+        document.write(`<base href="${baseHref}">`);
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/weekly-reflections/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Clay Aucoin - Weekly Reflections</title>
+
 </head>
 <body>
     <ul>
@@ -23,12 +29,11 @@
     <ul>
         <p>Level 2 Reflections</p>
         <ul>
-            <li><a href="/weekly-reflections/reflections/lv2/lv2-week1-weekly-reflection.html">Week 1</a></li>
-            <li><a href="/weekly-reflections/reflections/lv2/lv2-week2-weekly-reflection.html">Week 2</a></li>
+            <li><a href="reflections/lv2/lv2-week1-weekly-reflection.html">Week 1</a></li>
+            <li><a href="reflections/lv2/lv2-week2-weekly-reflection.html">Week 2</a></li>
             <li>Week 3</li>
             <li>Week 4</li>
             <li>Week 5</li>
-            <li>Week 6</li>
         </ul>
     </ul>
 
