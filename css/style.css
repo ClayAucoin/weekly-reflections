@@ -63,6 +63,19 @@ ul.disc {
     list-style-type: disc;
 }
 
+ul.nav {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+ul.nav li {
+  margin: 0 10px;
+}
+
 p.pIndexCopy {
   font-size: 15px;
   padding: 0 10px 0 25px;
@@ -112,4 +125,11 @@ nav.footer {
 hr {
   width: 97%;
   box-shadow: 2px 2px 1px lightblue;
+}
+
+.active-page {
+  font-weight: 800;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #007acc;
 }
