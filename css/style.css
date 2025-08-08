@@ -152,7 +152,16 @@ hr {
   color: #007acc;
 }
 
+table.outter {
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
 
+ul {
+  list-style-type: none;
+}
 
-
-
+div.center {
+  text-align: center;
+}
