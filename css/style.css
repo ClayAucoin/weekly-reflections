@@ -135,11 +135,6 @@ img {
   /*box-shadow: 5px 5px 1px lightblue;*/
 }
 
-
-.spacer {
-  padding-top: 10px;
-}
-
 nav.footer {
   width: 100%;
   font-size: 11px;
@@ -273,5 +268,9 @@ div.code-content {
   width: 75%;
   padding: 10px;
   margin: 10px;
+}
+
+.spacer {
+  padding-top: 50px;
 }
 
