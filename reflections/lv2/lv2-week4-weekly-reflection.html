@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script>
         const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
@@ -8,21 +9,29 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/darkula.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/prism-line-numbers.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/min.css">
 
     <script src="js/navigation.js"></script>
-  
+
     <title>Clay Aucoin - Level 2 Week 4 Reflection</title>
 </head>
+
 <body>
-    
+
     <header id="page-header">
         <h1>Weekly Reflection</h1>
         <h2>Clay Aucoin</h2>
@@ -35,23 +44,44 @@
 
         <!-- Main Content -->
         <main class="main-content">
-            
-            <p>This week we ...</p>
 
-            <div class="code-content">
-                <ul>
-                    <ol>
-                        <li><pre class="command-line"><code>git add .</code></pre></li>
-                        <li>Then go to the original Repository's GitHub and create a pull request.</li>
-                    </ol>
-                </ul>
+            <p>This week we started learning Bootstrap. Very nice coding helper. Remembering all of the Bootstrap
+                classes can be overwhelming. But I thought the same about HTML when I first started coding all those
+                years ago. It just takes patients, use and time and it'll become second nature. I'm not worried.</p>
+
+            <p>Here are a few of the projects we started this week.</p>
+            <br>
+
+            <div class="row">
+                <div class="col-6 text-center">
+                    <img style="width: 400px;" src="images/lv2/lv2-week4-1.png" alt="Water Conservation Project">
+                </div>
+                <div class="col-6 text-center">
+                    <img style="width: 400px;" src="images/lv2/lv2-week4-2.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 text-center">
+                    <img style="width: 450px;" src="images/lv2/lv2-week4-3.png" alt="Water Conservation Project">
+                </div>
             </div>
 
-            <p>Content goes here.</p>
+            <br><br>
+            <div class="row">
+                <p>One of the things I had issues with this week was getting the grid layouts to cooperate. This is just
+                    one example of that. When the screen is narrower, the layout looks fine (image on left). But all
+                    hell breaks loose when the screen widens (image on right).</p>
+                <div class="col-6 text-center">
+                    <img style="width: 400px;" src="images/lv2/lv2-week4-2.png" alt="Water Conservation Project">
+                </div>
+                <div class="col-6 text-center">
+                    <img style="width: 800px;" src="images/lv2/lv2-week4-4.png" alt="">
+                </div>
+            </div>
 
-            <div class="img"><img style="width: 90%" src="images/image.png" alt="Image alt tag"></div>
         </main>
     </div>
 
 </body>
+
 </html>
