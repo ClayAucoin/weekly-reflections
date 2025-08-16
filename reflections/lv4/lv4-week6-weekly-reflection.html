@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+        const baseHref = isLocal ? '/' : '/weekly-reflections/';
+        document.write(`<base href="${baseHref}">`);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/darkula.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/prism-line-numbers.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/min.css">
+
+    <script src="js/navigation.js"></script>
+  
+    <title>Clay Aucoin - Level 2 Week 4 Reflection</title>
+</head>
+<body>
+    
+    <header id="page-header">
+        <h1>Weekly Reflection</h1>
+        <h2>Clay Aucoin</h2>
+        <h3>Level 2 Week 4</h3>
+    </header>
+
+    <div id="layout">
+        <!-- Navigation -->
+        <div id="nav-placeholder"></div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            
+            <p>This week we ...</p>
+
+            <div class="code-content">
+                <ul>
+                    <ol>
+                        <li><pre class="command-line"><code>git add .</code></pre></li>
+                        <li>Then go to the original Repository's GitHub and create a pull request.</li>
+                    </ol>
+                </ul>
+            </div>
+
+            <p>Content goes here.</p>
+
+            <div class="img"><img style="width: 90%" src="images/image.png" alt="Image alt tag"></div>
+        </main>
+    </div>
+
+</body>
+</html>
