@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script>
-        (function () {
-            const isLocal = ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
-            const baseHref = isLocal ? '/' : '/weekly-reflections/';
-            const base = document.createElement('base');
-            base.setAttribute('href', baseHref);
-            document.head.prepend(base); // insert as the first element in <head>
-        })();
-    </script>
+    <script src="../../headerScript.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/darkula.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/prism-line-numbers.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
@@ -22,11 +16,12 @@
     <link rel="stylesheet" href="css/min.css">
 
     <script src="js/navigation.js"></script>
-  
+
     <title>Clay Aucoin - Level 2 Week 1 Reflection</title>
 </head>
+
 <body>
-    
+
     <header id="page-header">
         <h1>Weekly Reflection</h1>
         <h2>Clay Aucoin</h2>
@@ -40,33 +35,46 @@
         <!-- Main Content -->
         <main class="main-content">
 
-            <p>This week we got into sprites. These are some screenshots of my mini-project.</p>
+            <div style="max-width: 1000px;">
 
-            <table class="outter">
-                <tr>
-                    <td align="center">
-                        <table>
-                            <tr>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week5-1.png" alt="Sea image #1"></td>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week5-2.png" alt="Sea image #2"></td>
-                            </tr>
-                            <tr>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week5-3.png" alt="Sea image #3"></td>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week5-4.png" alt="Sea image #4"></td>
-                            </tr>
-                            <tr>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week5-5.png" alt="Sea image #5"></td>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week5-6.png" alt="Sea image #6"></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
+                <p>This week we got into sprites. These are some screenshots of my mini-project.</p>
 
-            <p class="spacer">The only blocker I had was wanting to have my sprites move around on the screen. So the only way I was able to get that done with where we are is to just randomize the locations. Albeit, you have to hit the Reset button, but the eyes and each fish won’t be in the same position from image to image...we’ll get there.</p>
+                <table class="outter">
+                    <tr>
+                        <td align="center">
+                            <table>
+                                <tr>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week5-1.png" alt="Sea image #1">
+                                    </td>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week5-2.png" alt="Sea image #2">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week5-3.png" alt="Sea image #3">
+                                    </td>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week5-4.png" alt="Sea image #4">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week5-5.png" alt="Sea image #5">
+                                    </td>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week5-6.png" alt="Sea image #6">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
 
+                <p class="spacer">The only blocker I had was wanting to have my sprites move around on the screen. So
+                    the only way I was able to get that done with where we are is to just randomize the locations.
+                    Albeit, you have to hit the Reset button, but the eyes and each fish won’t be in the same position
+                    from image to image...we’ll get there.</p>
+
+            </div>
         </main>
     </div>
 
 </body>
+
 </html>

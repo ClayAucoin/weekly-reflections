@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script>
-        (function () {
-            const isLocal = ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
-            const baseHref = isLocal ? '/' : '/weekly-reflections/';
-            const base = document.createElement('base');
-            base.setAttribute('href', baseHref);
-            document.head.prepend(base); // insert as the first element in <head>
-        })();
-    </script>
+    <script src="../../headerScript.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/darkula.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/prism-line-numbers.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
@@ -22,11 +16,12 @@
     <link rel="stylesheet" href="css/min.css">
 
     <script src="js/navigation.js"></script>
-  
+
     <title>Clay Aucoin - Level 2 Week 1 Reflection</title>
 </head>
+
 <body>
-    
+
     <header id="page-header">
         <h1>Weekly Reflection</h1>
         <h2>Clay Aucoin</h2>
@@ -39,32 +34,43 @@
 
         <!-- Main Content -->
         <main class="main-content">
-            <p>This week we started with animation. This is getting fun but the main thing that I have issues with is being creative. Having said that, here is my simple animation for project 14.</p>
 
-            <table class="outter">
-                <tr>
-                    <td align="center">
-                        <table>
-                            <tr>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week6-1.png" alt="Rocket image #1"></td>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week6-2.png" alt="Rocket image #2"></td>
-                            </tr>
-                            <tr>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week6-3.png" alt="Rocket image #3"></td>
-                                <td><img style="width: 90%" src="images/lv1/lv1-week6-5.png" alt="Rocket image #4"></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-            <p>Next we are getting into user input, nice. Working with keyboard input and then moving on to mouse input. I am anxious to get to boundaries.</p>
+            <div style="max-width: 1000px;">
 
-            <p>This challenge from 17.8.C was pretty fun. The image on the left is what we were supposed to accomplish and below it is my code.</p>
+                <p>This week we started with animation. This is getting fun but the main thing that I have issues with
+                    is being creative. Having said that, here is my simple animation for project 14.</p>
 
-            <div class="img"><img style="width: 50%" src="images/lv1/lv1-week6-4.gif" alt="Bee following mouse"></div>
+                <table class="outter">
+                    <tr>
+                        <td align="center">
+                            <table>
+                                <tr>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week6-1.png" alt="Rocket image #1">
+                                    </td>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week6-2.png" alt="Rocket image #2">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week6-3.png" alt="Rocket image #3">
+                                    </td>
+                                    <td><img style="width: 90%" src="images/lv1/lv1-week6-5.png" alt="Rocket image #4">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <p>Next we are getting into user input, nice. Working with keyboard input and then moving on to mouse
+                    input. I am anxious to get to boundaries.</p>
 
-            <div class="code-content">
-                <pre>
+                <p>This challenge from 17.8.C was pretty fun. The image on the left is what we were supposed to
+                    accomplish and below it is my code.</p>
+
+                <div class="img"><img style="width: 50%" src="images/lv1/lv1-week6-4.gif" alt="Bee following mouse">
+                </div>
+
+                <div class="code-content">
+                    <pre>
                     <code class="language-javascript">
     // World.frameRate = 5;
     //Create a bee sprite
@@ -96,9 +102,11 @@
 
                     </code>
                 </pre>
+                </div>
             </div>
         </main>
     </div>
 
 </body>
+
 </html>
